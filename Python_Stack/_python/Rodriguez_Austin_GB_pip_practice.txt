@@ -1,0 +1,56 @@
+pip list: listed the package and version of both pip and setup tools
+
+deactivate: deactivated the virtual environment
+
+pip3 list: lists everything with their version like, Django, pip, pytz, setuptools, sqlparse.
+
+pip install Django===2.2.4: installed that version of Django
+
+pip freeze: gave Django, Pytz and sqlparse and their corrosponding versions.
+
+pip freeze > requirements.txt ls : it lists the following 
+'3D Objects'/
+ AMDRM_Install.log
+ AMD_RyzenMaster.log
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Documents/
+ Dojo_Assignments/
+ Downloads/
+ EpicInstaller-10.17.0.msi
+ Favorites/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{bc0f2b60-0daa-11eb-ad43-bdfc6866c1b3}.TM.blf
+ NTUSER.DAT{bc0f2b60-0daa-11eb-ad43-bdfc6866c1b3}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{bc0f2b60-0daa-11eb-ad43-bdfc6866c1b3}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ OriginThinSetup.exe*
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Twitch/
+ Videos/
+ ansel/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ requirements.txt
+ test/
+
+pip uninstall Django: uninstalls Django
+
+pip show Django: WARNING: Package(s) not found: Django
+
+

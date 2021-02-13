@@ -1,0 +1,10 @@
+.center-box{
+    min-width: 950px;
+    height: 500px;
+    color: rgb(59, 59, 255);
+}
+.center-item{
+    width: 100px;
+    height: 100px;
+    color: tan;
+}

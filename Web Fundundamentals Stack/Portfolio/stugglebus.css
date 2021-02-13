@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px solid red;
+    font-family: 'Brush Script MT', cursive;
+}
+.header{
+    width:970px;
+    height:auto;
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    align-items:center;
+}
+    .jayne{
+        align-items:center;
+        margin:20px
+    }
+.wrapper{
+    width:970px;
+    height:1000px;
+    background-image: radial-gradient(#1d1114,#6f5964,#1d1114);
+}
+
+.main_content{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+    .about{
+        display:flex;
+        justify-content: space-between;
+        
+    }
+        .me{
+            margin-left:20px;
+            margin-top:20px;
+            margin-right:10px;
+            display: flex;
+            border:5px solid #c0c0c0;
+        }
+        div.righttext div.abouts p.p{
+            font-size:8pt;
+
+        }
+        .content{
+            padding:10px;
+            margin-left:10px;
+            margin-top:10px;
+            margin-right:10px;
+            padding-bottom:1px;
+        }
+            h2.about{
+                padding:10px;
+                background-image:linear-gradient(#ababb0,#8a8895,#ababb0);
+                color:white;
+            }
+            .paragraph{
+                align-items:center;
+                background-image: linear-gradient(to right,white ,#dacbd9);
+                text-overflow: clip;
+            }
+                .main{
+                    padding-top:10px;
+                    padding-left:5px;
+                    text-size-adjust: 10pt;
+                }
+            .continue{
+                text-decoration: underline;
+            }
+            
+#container2{
+    display:flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    width: 950px;
+    height:650px;
+}
+    .subcontents{
+        vertical-align: top;
+        width:293px;
+        height:600px;
+        margin-top: 20px;
+        margin-left:20px;
+    }
+    div.contents{
+        background-image: linear-gradient(to right,white ,#dacbd9);
+        height:582px;
+    }
+        h2.lamodes{
+            padding:5px;
+            background-image:linear-gradient(#ababb0,#8a8895,#ababb0);
+            color:white;
+        }
+            h2 .info{
+                width:119.63px;
+                height:293px;
+            }
+    h3{
+        padding:5px;
+        background-image:linear-gradient(#ababb0,#8a8895,#ababb0);
+        color:white;
+    }
+    .list1{
+        display:flex;
+        align-items:center;
+        flex-wrap:wrap;
+    }
+    .list1 li{
+        list-style-type: none;
+        margin:10px;
+    }
+
+    img.icons{
+        align-items:flex-start;
+        justify-content: space-between;
+        width: 35px;
+        height: auto;
+    }
+
+    .button{
+        justify-content: center;
+        margin-left:75px;
+        margin-top: 50px;
+        padding: 0px 10px;
+        color:white;
+        text-decoration: none;
+        font-size: 18px;
+        background-color: #407d61;
+        border-radius:5px;
+    }
+
+    p{
+        display: inline-flex;
+        justify-content:center;
+        align-content:center;
+    }
+
+.footer{
+    display:flex;
+    width:970px;
+    background-color: white;
+    height:100px;
+}
+    div.wholebox{
+        margin-left:300px;
+        margin-top:20px;
+    }
+        .help{
+            align-self: center;
+            padding:5px;
+            margin-left:70px;
+        }
+        .JdoeLinks{
+            display:flex;
+            align-items:center;
+            flex-wrap:wrap;
+            list-style-type: none;
+        }
+        .JdoeLinks li{
+            flex-direction: column;
+            align-content: center;
+            width: 100px;
+            height: auto;
+            text-decoration:underline;
+            font-style:italic;
+        }
+
+        JdoeLinks li p{
+            margin-bottom:10px;
+            width:20px;
+            height:20px;
+        }
+
+        img.icons2{
+            align-items:flex-start;
+            justify-content: left;
+            width: 25px;
+            height: auto;
+            flex-wrap:wrap;
+            align-content: center;
+            padding-top:5px
+        }

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="Rodriguez_Austin_VS_disappearing_Ninja.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            
+            $( "#clickme" ).click(function() {
+                $( "img" ).show( "slow", function() {
+                });
+            });
+
+            $('#one').click(function(){
+                $('#catone').toggle();
+            });
+
+            $('#two').click(function(){
+                $('#cattwo').toggle();
+            });
+
+            $('#three').click(function(){
+                $('#catthree').toggle();
+            });
+
+            $('#four').click(function(){
+                $('#catfour').toggle();
+            });
+
+            $('#five').click(function(){
+                $('#catfive').toggle();
+            });
+
+            $('#six').click(function(){
+                $('#catsix').toggle();
+            });
+
+            $('#seven').click(function(){
+                $('#catseven').toggle();
+            });
+
+            $('#eight').click(function(){
+                $('#cateight').toggle();
+            });
+
+            $("#reset").click(function(){
+                $("#reset").show("#table");
+            });
+        })
+            
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Ninja Cats</h1>
+    </header>
+
+        <h3>Click on the ninjas to make them disappear!</h3>
+    <table class="ninja">
+        <thead>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <button id="one">
+                        <img id="catone" src="ninja-cat.png">
+                    </button>
+                    <button id="two">
+                        <img id="cattwo" src="ninja-cat.png">
+                    </button>
+                </td>
+                <td>
+                    <button id="three">
+                        <img id="catthree" src="ninja-cat.png">
+                    </button>
+                    <button id="four">
+                        <img id="catfour" src="ninja-cat.png">
+                    </button>
+                </td>
+                <td>
+                    <button id="five">
+                        <img id="catfive" src="ninja-cat.png">
+                    </button>
+                    <button id="six">
+                        <img id="catsix" src="ninja-cat.png">
+                    </button>
+                </td>
+                <td>
+                    <button id="seven">
+                        <img id="catseven" src="ninja-cat.png">
+                    </button>
+                    <button id="eight">
+                        <img id="cateight" src="ninja-cat.png">
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div id="clickme">
+        Reset
+    </div>
+
+</html>

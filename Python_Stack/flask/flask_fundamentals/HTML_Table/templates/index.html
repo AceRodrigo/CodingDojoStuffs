@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Full Name</th>
+            </tr>
+            {% for spaghetti in users %}
+            <tr>
+                <td>{{spaghetti['first_name']}}</td>
+                <td>{{spaghetti['last_name']}}</td>
+                <td>{{spaghetti['first_name'] + spaghetti['last_name']}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>

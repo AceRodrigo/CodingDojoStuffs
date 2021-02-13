@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+    outline: 1px solid red;
+}
+div.wrapper{
+    width:970px;
+    height:1000px;
+    background-color: #245076;
+}
+
+.header{
+    width:970px;
+    height: auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    align-items:center;
+}
+
+    div.right{
+        width: 500px;
+        height: 100px;
+        display: flex;
+    }
+        p.text_size{
+            
+        }

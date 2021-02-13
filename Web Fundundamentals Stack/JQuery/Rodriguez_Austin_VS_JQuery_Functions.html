@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Rodriguez_Austin_VS_JQuery_Functions.css">
+    <title>Document</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            
+            $("#change_red").click(function(){
+                $("#to_change_red").addClass("red-text")
+            })
+
+            $("#on_off").click(function(){
+                $("#to_delete").text("I didn't want to change.")
+            })
+
+            $("#to_toggle").click(function(){
+                $("#toggler").toggle();
+            })
+
+        })
+    </script>
+</head>
+<body>
+    <h1>Hello World!</h1>
+
+    <h3>Stuff I want to change:</h3>
+    <ul>
+        <li id="to_change_red">I want this to be red</li>
+        <li id="to_delete">I want to toggle this text</li>
+        <li id="toggler">I want to change this text</li>
+    </ul>
+
+    <button id="change_red">Change Number 1</button>
+    <button id="on_off">Change Number 2</button>
+    <button id="to_toggle">Change Number 3</button>
+
+
+</body>
+</html>
